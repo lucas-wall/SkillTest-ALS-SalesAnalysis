@@ -1,0 +1,1 @@
+Também foi detectado uma inconsistência na coluna POSTAL CODE, sempre quando a venda é exatamende de [United States - Burlington - Vermont - East] o valor retorna nulo.
