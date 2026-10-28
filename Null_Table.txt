@@ -1,0 +1,1 @@
+An inconsistency was also detected in the POSTAL CODE column: whenever the sale is exactly from [United States - Burlington - Vermont - East], the value returns null.

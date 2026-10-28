@@ -1,40 +1,15 @@
-# 📊 SkillTest ALS - Análise de Vendas
+# 📊 ALS Sales Analysis Skill Test
 
-Este projeto tem como objetivo realizar uma análise das vendas de uma empresa, abordando a segmentação do mercado, as regiões de vendas e categorias de produtos. Ele utiliza dados em formato CSV e Excel e propõe ações estratégicas para otimizar as vendas, especialmente no segmento "Consumer" e na Região Sul.
+A Power BI sales analysis built for a Data Analyst hiring skill test at ALS. It breaks down sales by segment, region, category, ship mode and time, flags a data quality issue in the source, and proposes two actions to grow sales.
 
----
+## Stack
 
-## 📂 Estrutura de Pastas
+`Power BI` · `DAX` · `Power Query` · `CSV`
 
-SkillTest - ALS/ ├── Ações Propostas.docx # Documento com as ações propostas para melhorar as vendas 
-                 ├── Avaliação_Prática.pbix # Relatório do Power BI com visualizações e insights de vendas 
-                 ├── Capa.svg # Capa do relatório de vendas (SVG) 
-                 ├── Null_Tabela.txt # Descrição de inconsistências nos dados de vendas 
-                 ├── train 1.csv # Dados de vendas em formato CSV 
-                 └── Agções Propostas # Documento Word com propostas de ações
+## What's inside
 
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **Power BI** (para visualização de dados e análises)
-- **Excel/CSV** (para armazenamento de dados)
-- **Python** (para pré-processamento de dados, se necessário)
-- **Word / Documento** (para descrever as ações propostas)
-
----
-
-## 📝 Ações Propostas
-
-- **Focar em Ofertas para o Segmento "Consumer"**: O segmento "Consumer" é o que mais gera vendas, somando cerca de 1,15 milhões. Estratégias como descontos ou promoções direcionadas a este grupo podem aumentar ainda mais as vendas. **[Ações Propostas](Ações Propostas.docx)**.
-
-- **Expandir o Alcance na Região Sul**: A região Sul apresenta o menor valor de vendas. Propostas para campanhas específicas na região ou o ajuste do portfólio de produtos pode ser eficaz para aumentar as vendas nessa área. **[Leia Mais](Ações Propostas.docx)**.
-
----
-
-## 🚀 Como Executar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/skilltest-als-sales-analysis.git
+- `Practical_Assessment.pbix`: Power BI report with KPI cards, bar, donut and line charts, slicers and page navigation over sales, orders and customers.
+- `train 1.csv`: source sales dataset (orders, customers, segment, location, region, product, category and sales amount).
+- `Proposed_Actions.docx`: two recommendations backed by the report: focus offers on the Consumer segment (about 1.15 million in sales) and expand reach in the South region and in Technology products.
+- `Null_Table.txt`: data quality note on null POSTAL CODE values for United States - Burlington - Vermont - East.
+- `Cover.svg`: report cover image.
